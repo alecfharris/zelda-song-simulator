@@ -1,0 +1,21 @@
+.a-button, .b-button{
+    border-radius: 50px;
+    text-decoration: black;
+    font-size: 6vh;
+    text-align: left;
+    height: 10vh;
+    width: 10vh;
+    padding-left: 2vh;
+}
+
+.a-button{
+    background-color: blue;
+    text-shadow: 2px 0 0 rgb(0, 0, 155), -2px 0 0 rgb(0, 0, 155), 0 2px 0 rgb(0, 0, 155), 0 -2px 0 rgb(0, 0, 155), 1px 1px rgb(0, 0, 155), -1px -1px 0 rgb(0, 0, 155), 1px -1px 0 rgb(0, 0, 155), -1px 1px 0 rgb(0, 0, 155);
+    color: blue;
+}
+
+.b-button{
+    text-shadow: 2px 0 0 rgb(0, 90, 0), -2px 0 0 rgb(0, 90, 0), 0 2px 0 rgb(0, 90, 0), 0 -2px 0 rgb(0, 90, 0), 1px 1px rgb(0, 90, 0), -1px -1px 0 rgb(0, 90, 0), 1px -1px 0 rgb(0, 90, 0), -1px 1px 0 rgb(0, 90, 0);
+    background-color: green;
+    color: green;
+}

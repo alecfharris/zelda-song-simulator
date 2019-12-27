@@ -1,25 +1,24 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from 'react';
-import logo from './logo.svg';
+import RoundButton from './Components/Buttons/RoundButton/RoundButton';
 import './App.css';
+import CButton from './Components/Buttons/CButton/CButton';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <RoundButton className="a-button" text="A" />
+      <RoundButton className="b-button" text="B" />
+      <div className="flex vertical">
+        <CButton buttonClassName="c-button" arrowClassName="up" />
+        <div className="flex horizontal">
+          <CButton buttonClassName="c-button" arrowClassName="left" />
+          <CButton buttonClassName="c-button" arrowClassName="right" />
+        </div>
+        <CButton buttonClassName="c-button" arrowClassName="down" />
+      </div>
+
+    </>
   );
 }
 

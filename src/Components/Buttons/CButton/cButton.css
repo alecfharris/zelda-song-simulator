@@ -1,0 +1,50 @@
+.c-button{
+    border-radius: 50px;
+    text-decoration: black;
+    background-color: yellow;
+    font-size: 6vh;
+    text-align: center;
+    height: 7vh;
+    width: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3vw;
+    border: none;
+    
+}
+
+.arrow{
+    width: 0; 
+    height: 0; 
+    
+}
+
+.up{
+    margin-bottom: 1vh;
+    border-left: 2vh solid transparent;
+    border-right: 2vh solid transparent;
+    border-bottom: 3vh solid black;
+    
+}
+
+.left {
+    border-top: 2vh solid transparent;
+    border-bottom: 2vh solid transparent;     
+    border-right: 3vh solid black; 
+    margin: 0 1vh 0 0;
+}
+
+.right{
+    border-top: 2vh solid transparent;
+    border-bottom: 2vh solid transparent;
+    border-left: 3vh solid black;
+    margin: 0 0 0 1vh;
+}
+
+.down{
+    border-left: 2vh solid transparent;
+    border-right: 2vh solid transparent;
+    border-top: 3vh solid black;
+    margin: 1vh 0 0 0;
+}
